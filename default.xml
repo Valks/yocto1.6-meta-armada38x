@@ -11,7 +11,7 @@
 
   <project remote="oe" revision="daisy" name="openembedded/meta-openembedded.git" path="sources/meta-openembedded"/>
 
-  <project remote="marvell" revision="yocto1.6-15t1-clearfog" name="yocto1.6-meta-armada38x-clearfog" path="sources/meta-armada38x">
+  <project remote="marvell" revision="yocto1.6-15t1-clearfog" name="yocto1.6-meta-armada38x" path="sources/meta-armada38x">
     <copyfile dest="README" src="README"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
     <copyfile dest="write_image" src="write_image"/>
